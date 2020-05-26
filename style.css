@@ -1,0 +1,73 @@
+:root {
+  --color-primary: #ed3833;
+  --color-secondary: #191a1e;
+}
+body {
+  color: #555;
+  margin: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  color: var(--color-secondary);
+  font-family: "Paytone One", sans-serif;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 20px;
+}
+main {
+  margin: 50px auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  margin: 50px 0;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  fill: var(--color-primary);
+  padding: 10px;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-primary);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.button {
+  background-color: var(--color-primary);
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  margin: 0 20px;
+  display: inline-block;
+}
