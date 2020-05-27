@@ -37,10 +37,15 @@ img {
 
 hr {
   margin: 50px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
 }
 
 ol{
+  padding: 0;
+  font-size: 14px;
   list-style-position: inside;
+  opacity: 0.75;
 }
 
 .logo {
