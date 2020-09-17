@@ -16,7 +16,7 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 p{
-  padding: 20px 0;
+  padding: 20px 10px;
   margin: 0;
 }
 h1 {
@@ -83,12 +83,28 @@ ol{
 .instructions{
   display: flex;
   flex-wrap: wrap;
+  padding: 0 5px;
 }
 
 @media (max-width: 600px){
   .instructions{
     overflow-x: scroll;
     flex-wrap: nowrap;
+  }
+  .instructions:after{
+    content: 'Scroll Right';
+    position: absolute;
+    width: 100px;
+    height: 450px;
+    pointer-events: none;
+    background: radial-gradient(ellipse at right, rgba(0, 0, 0, 0.5), transparent 100px);
+    right: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
   }
   .instruction{
     min-width: 200px;
