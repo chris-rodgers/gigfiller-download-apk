@@ -92,7 +92,7 @@ ol{
     flex-wrap: nowrap;
   }
   .instructions:after{
-    content: 'Scroll Right';
+    /* content: 'Scroll Right'; */
     position: absolute;
     width: 100px;
     height: 450px;
