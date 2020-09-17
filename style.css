@@ -92,7 +92,7 @@ ol{
     flex-wrap: nowrap;
   }
   .instructions:after{
-    /* content: 'Scroll Right'; */
+    content: ' ';
     position: absolute;
     width: 100px;
     height: 450px;
@@ -102,9 +102,9 @@ ol{
     display: flex;
     justify-content: center;
     color: white;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    text-align: center;
+    /* writing-mode: vertical-rl; */
+    /* text-orientation: mixed; */
+    /* text-align: center; */
   }
   .instruction{
     min-width: 200px;
